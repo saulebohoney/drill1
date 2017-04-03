@@ -1,5 +1,5 @@
-function whoAmi()
+function whoAmi(name, age)
 {
-console.log("Hi, my name is Saule and I'm 31 years old");
+console.log(`Hi, my name is ${name} and I'm ${age} years old`);
 }
-whoAmi();
+whoAmi('name','34');
